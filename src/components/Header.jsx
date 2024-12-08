@@ -1,9 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
+
 import React from "react";
 import { AiOutlineLogin } from "react-icons/ai";
 import { FaSearch } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import { IoIosHeartEmpty } from "react-icons/io";
 import Link from "next/link"; // Import Link from next/link
+
 
 const Header = () => {
   return (

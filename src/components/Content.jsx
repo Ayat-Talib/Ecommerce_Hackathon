@@ -1,5 +1,9 @@
 import React from 'react';
 import Footer from "./Footer";
+
+/* eslint-disable @next/next/no-img-element */
+
+
 const Content = () => {
   return (
     <div>
@@ -18,7 +22,7 @@ const Content = () => {
 
       {/* Centered Image */}
       <div className="cover flex flex-col items-center bg-slate-50 mb-10 py-20">
-        <img 
+        <img
           src="/img_2.png" 
           alt="Editor's Pick Image" 
           
@@ -41,8 +45,8 @@ const Content = () => {
       </div>
 
 <div className='cover flex flex-col py-11 items-center space-y-6'>
-  <img src='/carousel_2.png' />
-  <img src='/container_fluid.png' />
+  <img src='/carousel_2.png' alt='carousel'/>
+  <img src='/container_fluid.png' alt="container"/>
 </div>
 
 <div>
@@ -51,7 +55,7 @@ const Content = () => {
   <p className='text-[#737373] mt-3 text-xl text-bold font-Montserrat text-center'>Problems trying to resolve the conflict between<br />
   the two major realms of Classical physics: Newtonian mechanics </p>
   <div className='cover mt-20 flex flex-col items-center'>
-  <img src='/row_2.png' />
+  <img src='/row_2.png'alt="row" />
   </div>
 </div>
 
